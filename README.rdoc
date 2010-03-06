@@ -1,0 +1,7 @@
+= Blackjack
+
+A javascript version of the popular games.
+
+== Thanks to ...
+
+
