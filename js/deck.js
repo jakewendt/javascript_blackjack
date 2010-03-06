@@ -39,7 +39,7 @@ function Card(options_) {
 /*
 	// would be nice to preload in the backgound, but this actually happens in the foreground
 	var image = new Image();
-	image.src = "/images/eludication/"+options.suit+"-"+options.face+"-150.png"
+	image.src = "eludication/"+options.suit+"-"+options.face+"-150.png"
 */
 
 	this.suit = function(){

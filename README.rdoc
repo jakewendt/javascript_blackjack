@@ -4,4 +4,5 @@ A javascript version of the popular games.
 
 == Thanks to ...
 
+Card images from http://www.eludication.org/playingcards.html
 

@@ -27,7 +27,7 @@ function BlackJack(options_) {
 			"<div id='player' class='side'></div>"
 		);
 		$('#dealer').html(
-			"<div id='deck' class='card_holder'><img class='card' src='/images/eludication/back-red-150-1.png' /></div>" +
+			"<div id='deck' class='card_holder'><img class='card' src='eludication/back-red-150-1.png' /></div>" +
 			"<div id='info' class='card_holder'><div class='card'></div></div>" +
 			"<div id='dealer_hand' class='hand card_holder'></div>" +
 			"<p class='message'>Dealer stands on all 17's</p>"
@@ -36,7 +36,7 @@ function BlackJack(options_) {
 			"<div id='chips' class='card_holder'>" +
 			"<div class='card'>" +
 				"<span class='label'>Wager:</span>" +
-				"<input id='wager' type='text' size='10' />" +
+				"<input id='wager' type='text' size='6' />" +
 				"<span class='label'>Bank:</span>" +
 				"<span id='bank'>"+bank+"</span>" +
 			"</div>" +
@@ -97,7 +97,7 @@ function BlackJack(options_) {
 			$('#dealer_hand').append("<div class='score card'>"+dealer_hand.score()+"</div>");
 		} else {
 			$('#dealer_hand').append(
-				"<div class='card'><img src='/images/eludication/back-red-150-1.png' /></div>" +
+				"<div class='card'><img src='eludication/back-red-150-1.png' /></div>" +
 				image_for(dcards[1])
 			);
 		}
@@ -114,7 +114,7 @@ function BlackJack(options_) {
 	}
 
 	function image_for(card){
-		return "<div class='card'><img src='/images/eludication/"+card.suit()+"-"+card.face()+"-150.png' /></div>"
+		return "<div class='card'><img src='eludication/"+card.suit()+"-"+card.face()+"-150.png' /></div>"
 	}
 
 	function finish_dealer_hand(){
